@@ -1,0 +1,47 @@
+# ===== СЕКРЕТЫ =====
+.env
+secretcode.py
+config.py
+*.env
+secrets/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ===== ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ =====
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# ===== ДАННЫЕ =====
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== ДРУГОЕ =====
+*.bak
+*.tmp
+.cache/
